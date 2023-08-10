@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -84,7 +85,7 @@ a{
     align-self: last baseline;
     margin-bottom: 70px;
     margin-left: 90px;
-    color: #080808;
+    color: #faf8f8;
     display: flex;
     justify-content: center; 
     font-size: xx-large;
@@ -93,11 +94,69 @@ a{
     background-color: #765827;
     border-radius: 20px;
 }
+
+
+
+/* Jobs */
+#jobs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.job{
+    line-height: 25px;
+    width: 80%;
+    justify-self: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.job-header{
+    width: 100%;
+}
+.job-text{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    line-height: 33px;
+}
+.job-image{
+    width: 40%;
+    margin: 10px;
+    border-radius: 20px;
+    max-height: 500px;
+}
+
+#family{
+    background-color: rgb(250, 229, 204);
+}
+
+#office{
+    background-color: rgb(248, 220, 185)
+}
+.steps{
+    list-style-type: disc;
+}
+#state{
+    background-color: rgb(247, 209, 163);
+}
+#long-distance{
+    background-color: rgb(252, 204, 146);
+
+}
+
+
+
+
+
+/* Testimonies */
 .testimonies{
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    justify-content: center;
+    justify-content: space-between;
     margin: 70px 0px;
 }
 
@@ -134,10 +193,4 @@ a{
     width: 250px;
     margin: 0px;
     vertical-align: top;
-}
-
-svg{
-    /* font-size: xx-large; */
-    width: 32;
-    height: 32px;
 }
